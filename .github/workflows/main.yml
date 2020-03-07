@@ -1,33 +1,88 @@
-# This is a basic workflow to help you get started with Actions
+#<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Магазин автозапастей</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="Икона.png" type="image/x-png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+  </style>
+</head>
+<body>
 
-name: CI
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <style>
+    .colortext {
+      color: red;
+    }
+    </style>
+  <h1> <span class="colortext">АВТО</span>МАГАЗИН</h1>
+</div>
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Веб-сайт</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Домашняя страница</a></li>
+        <li><a href="#"></a></li>  <!--вкладки шапки меню -->
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Автозапчати на заказ</h2>
+      <h5>Photo of me:</h5>
+      <div class=""></div>
+      <!--<p>Some text about me in culpa qui officia deserunt mollit anim..</p>сюда что-то можно написать-->
+      <h3>Наш магазин в соцсетях:</h3>
+      <!--<p>Lorem ipsum dolor sit ame.</p> и тут-->
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="https://vk.com/ugra_avtoparts">Вконтакте</a></li>
+        <li><a href="https://www.instagram.com/avtozapchastinazakazsto/?igshid=1gmy7qdg67q7u">Instagram</a></li>
+        <!--<li><a href="#">Link 3</a></li> ссылка-->
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>О нас:</h2>
+      <hr>
+      <h5>Работаем с 2010 года!</h5>
+      <p>Мы предлагаем автозапчасти дешевле! Не верите? Позвоните и мы подберем вам автозапчасти для вашего железного коня по лучшей цене.так же работаем и с б/у запчастями.</p>
+      <div class=""><img src="avtozapchasti.png"рнативн alt="альтеый текст"></div>
+      <br>
+      <div class="page-header"><span><b>Контактная информация:</b></span></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2f3eabbc4eacece450f051bce67d56dcedc327bbdf871520be4d0d40e428350b&amp;width=100%&amp;height=490&amp;lang=ru_RU&amp;scroll=true"></script>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <div style="float: left; width: 49%;"><p>Режим работы:<br> Понедельник-Пятница с 9:00 до 18:30 <br> Суббота с 12:00 до 16:00 <b><br>Воскресенье</b> - выходной</p></div><div style="float: right; width: 49%;"><p>Адрес и телефон:<br>г. Нефтеюганск, здание гостиницы «МАЯК»<br>Телефон: +79227723327</p> </div><div class="clear"></div>
+  
+  <p><a href=mailto:anatoliy87azanov@mail.ru>Задавайте
+    вопросы по электронной почте</a></p>
+</div>
+<script src="C:\Users\Захар-pcи\Desktop\контентыч\BOOTS\java.js">
+</script>
+  </button>
+</div>
+</body>
+</html>
